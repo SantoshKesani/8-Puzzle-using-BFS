@@ -9,6 +9,7 @@
 #include <cstdlib>
 #include <vector>
 #include <memory>
+#include <windows.h>
 
 
 class Node {
@@ -219,4 +220,5 @@ int main()
 	}
 
 	std::cin.get();
+	Sleep(100000);
 }
