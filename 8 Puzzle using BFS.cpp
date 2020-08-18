@@ -138,7 +138,6 @@ void Node::bfs(std::vector<int> const& begin, std::vector<int> const& end) {
 			}
 		}
 	}
-	exit(0);
 }
 
 bool contains(std::queue<Node*> q, Node* n) {
@@ -217,7 +216,6 @@ int main()
 	}
 	else {
 		std::cout << "\nSolution for the given starting node doesn't exist as it has odd inversions" << std::endl;
-		exit(0);
 	}
 
 	std::cin.get();
